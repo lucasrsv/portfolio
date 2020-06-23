@@ -2,43 +2,149 @@
     font-family: comfortaaBold;
     src: url(../fonts/comfortaa_bold.ttf)
 }
+
+
 header {
-    background-size: 100%;
-    background-image: linear-gradient(141deg, #BABEFF 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-size: 400% 400%;
+    background-image: linear-gradient(141deg,  #BABEFF 0%, #1fc8db 51%, #2cb5e8 75%);
+    /* background-image: linear-gradient(141deg, #FF0018 0%, #FFA52C 16%, #FFFF41 32%, #008018 48%, #0000F9 64%, #86007D 80%   ); */
+    animation: gradient ease-in 15s infinite;
+    /*     background: linear-gradient(-45deg,  #23a6d5, #23d5ab75); */
     padding: 1%;
     overflow: hidden;
+    box-shadow: 0 4px 2px -2px #5f5e5e65;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 body {
     margin: 0;
 }
 
+/* I can also take the img out of the div and add float to img and add a margin to h1 */
+
 header h1 {
     display: inline-block;
-    text-align: center;
-    vertical-align: center;
     font-family: comfortaaBold;
     color: #ffffff;
-    font-size: 2em;
+    font-size: 3em;
+    margin-top: 3%;
+    margin-bottom: 2.4%;
+
   }
 
+  @media (max-width: 1280px) {
+      header h1 {
+        font-size: 2.5em;
+        margin-top: 1%;
+        margin-bottom: 1%;
+      }
+        
+}
+  
 
 header img {
     width: 10%;
-    z-index: 2;
     position: relative;
-    border: 3px solid rgba(255, 255, 255, .5);
+    border: 3px solid rgba(255, 255, 255);
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
-    float: left; 
+    float: left;
+    position: sticky;
+}
+
+header nav {
+    display: inline;
+}
+
+header li {
+    display: inline-block;
+    font-size: 1em;
+    font-family: comfortaaBold;
+    color: white;
+    margin-right: 1%;
+    padding: 0.5%;
+    background-color: rgba(255, 255, 255, .1);
+    border: rgba(255, 255, 255, .5);
+    border-radius: 5%;
+    box-shadow: 1px 1px 2px #5f5e5e8a;
+}
+
+header li:nth-child(3) {
+    margin-right: 0;
+}
+
+header li:hover {
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+
+header ul {
+    display: inline;
+    padding: 0;
 }
 
 .headerTitle {
-    align-content: center;
     text-align: center;
-    display: inline-block;
-    padding-top: 3%;
-    margin-left: 30%;
-    clear: both;
+}
+
+.headerNav {
+    text-align: center;
+    display: none;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.content {
+    margin: 5%;
+    margin-top: 2%;
+    background-color: white;
+    box-shadow:  0 0 3em #5f5e5e65;
+    padding:40%;
+    border-radius:0.5%;
+}
+  
+/* Keyframes */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

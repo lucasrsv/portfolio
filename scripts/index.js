@@ -2,7 +2,7 @@
 var typeWriterCalled = false
 var i = 0
 var txt = 'Olá, seja bem vindx!' /* The text */
-var speed = 150 /* The speed/duration of the effect in milliseconds */
+var speed = 125 /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
     if (!typeWriterCalled){
@@ -13,6 +13,7 @@ function typeWriter() {
             setTimeout(typeWriter, speed)
         } else {
             typeWriterCalled = true
+            document.getElementById("headerNavBar").style.display = "block"
         }
     }
 }
