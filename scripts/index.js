@@ -1,7 +1,7 @@
 
 var typeWriterCalled = false
 var i = 0
-var txt = 'Olá, seja bem vindx!' /* The text */
+var txt = 'Olá, seja bem vindo(a)!' /* The text */
 var speed = 125 /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
@@ -19,7 +19,7 @@ function typeWriter() {
 }
 
 function welcomeTitle() {
-    document.getElementById("text").innerHTML = 'Olá, seja bem vindx!'
+    document.getElementById("text").innerHTML = 'Olá, seja bem vindo(a)!'
     document.getElementById("headerNavBar").style.display = "block"
     buttonsClick()
 }
