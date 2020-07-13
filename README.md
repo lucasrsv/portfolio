@@ -1,2 +1,2 @@
 # my-website
-My first website using HTML, CSS and JS :)
+My website is hosted at https://lucasrsv.github.io/my-website/ :)
