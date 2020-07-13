@@ -25,6 +25,17 @@ header {
 		background-position: 0% 50%;
 	}
 }
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 body {
     margin: 0;
@@ -37,16 +48,15 @@ header h1 {
     font-family: comfortaaBold;
     color: #ffffff;
     font-size: 3em;
-    margin-top: 3%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
 
   }
 
-  @media (max-width: 1280) {
+  @media (max-width: 1280px) {
       header h1 {
         font-size: 2.5em;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin-top: 0%;
       }
         
 }
@@ -62,6 +72,7 @@ header img {
     float: left;
     position: sticky;
 }
+
 
 header nav {
     display: inline;
@@ -81,7 +92,7 @@ header nav {
 }
 
 
-header li:nth-child(3) {
+header li:nth-child(5) {
     margin-right: 0;
 }
 
@@ -103,23 +114,228 @@ header ul {
 .headerNav {
     text-align: center;
     display: none;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
+    -webkit-animation: fadein 2s; 
+       -moz-animation: fadein 2s; 
+        -ms-animation: fadein 2s; 
+         -o-animation: fadein 2s;
             animation: fadein 2s;
 }
 
 .content {
     margin: 5%;
     margin-top: 2%;
+    margin-bottom: 2%;
     background-color: white;
     box-shadow:  0 0 3em #5f5e5e65;
     padding:2.5%;
     border-radius:0.5%;
+    overflow: hidden;
+}
+
+
+/* Intro */
+.intro {
+    overflow: hidden;
+    box-shadow: -0.5em 0.5em 0.5em #5f5e5e1f;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.intro img {
+    width: 15%; 
+    border: 3px solid #2c282828;
+    border-radius: 100%;
+    vertical-align: middle;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+.intro p {
+    font-family: comfortaa;
+    color: rgb(73, 85, 85);
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: justify;
+    width: 70%;
+    display: inline-block;
+    padding-left: 1%;
+    vertical-align: middle;
+}
+
+@media (max-width:1000px) {
+    .intro p {
+        font-size: 1em;
+        padding: 2%;
+        width: initial;
+    }
+
+    .intro img {
+        display: block;
+        width: 25%;
+        margin-right: 37%;
+        margin-left: 37%;
+    }
+}
+
+/* Projects */
+
+.content .projects {
+    display: flex;
+}
+
+.content .project {
+    flex: 1;
+    width: 31%;
+    overflow: hidden;
+    box-shadow: -0.5em 0.5em 0.5em #5f5e5e1f;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content .project img {
+    width: 45%;
+    text-align: center;
+    border: 3px solid #2c282828;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+.projectDescription {
+    font-family: comfortaa;
+    color: rgb(73, 85, 85);
+    font-size: initial;
+    font-weight: 500;
+    text-align: justify;
+    position: relative;
+    padding-top: 2.5%;
+    margin-left:15%;
+    margin-right: 15%;
+}
+
+.project img:hover {
+    cursor: pointer;
+}
+
+
+@media (max-width: 1000px) {
+
+    .content .projects {
+        display: inline-block;
+    }
+    .content .project {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .content .project p {
+        font-size: small;
+        padding: 2%;
+    }
+
+    .projectDescription {
+        position: static;
+        display: block;
+        margin: 0;
+    }
+
+    .content .project img {
+        width: 25%;
+        text-align: center;
+        display: block;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-top: 1%;
+        margin-bottom: 1%;  
+    }
+}
+
+.content .skills {
+    box-shadow: -0.5em 0.5em 0.5em #5f5e5e1f;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.skills .skill {
+    font-family: comfortaa;
+    color: rgb(73, 85, 85);
+    display: inline-block;
+    width:31%;
+    padding: 1%;
+}
+
+.skill h3 {
+    font-size: 1em;
+    color: rgb(73, 85, 85);
+}
+
+@media (max-width: 1000px) {
+    .skills .skill {
+        width: 45%;
+    }
+}
+
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 2em;
+  }
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(126, 120, 120, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    background-image: linear-gradient(141deg,  #BABEFF 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-size: 400%;
+    border-radius: 2px; 
+}
+
+
+.contact {
+    background-size: 400% 400%;
+    background-image: linear-gradient(141deg,  #BABEFF 0%, #1fc8db 51%, #2cb5e8 75%);
+    animation: gradient ease-in 15s infinite;
+    padding: 1%;
+    overflow: hidden;
+    box-shadow: 0 4px 2px -2px #5f5e5e65;
+    text-align: center;
+}
+
+.contact p {
+    font-family: comfortaaBold;
+    color: white;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.contact i {
+    margin: 1%;
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover { 
+    color: #3b3f3daf;
+    cursor: pointer;
 }
   
 /* Keyframes */
+
+
 
 @keyframes fadein {
     from { opacity: 0; }

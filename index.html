@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="scripts/index.js"></script>
     <title>Home</title>
   </head>
 
   <body onload="typeWriter()">
     <header>
-      <div  class="circle"></div>
-        <img src="imgs/me.png" alt="Lucas Rodrigues olhando para a câmera.">
         <div class="headerTitle">
             <h1 id="text"></h1>
         </div>
@@ -24,15 +24,99 @@
                     Projetos
                 </li>
                 <li class="headerLi">
-                    Experiência
+                    Skills
                 </li>
+                <li class="headerLi">
+                  Contato
+              </li>
             </ul>
           </nav>
         </div>
     </header>
+
     <div class="content">
-      Me chamo Lucas,
+      <section class="intro" id="#intro">
+        <img src="imgs/me.png">
+        <p>Me chamo Lucas, tenho 20 anos e sou estudante de Ciência da Computação na Universidade Federal de Pernambuco, atualmente no 4º período.
+          Atualmente, tenho atuado como <b>desenvolvedor Android</b> e também estudado <b>desenvolvimento Web</b>.
+          Amo gatos, um cafézinho e um código no fim da tarde <i class="em em-smiling_face_with_3_hearts" aria-role="presentation" aria-label="SMILING FACE WITH SMILING EYES AND THREE HEARTS"></i>.</p>
+        </section>
+
+      <section class="projects" id="projects">
+ 
+      <div class="project">
+        <a href="https://www.instagram.com/alemdacura" target="_blank">
+          <img src="imgs/alemdacura.png" alt="Além da Cura.">
+        </a>
+        <p class="projectDescription">O <b>Além da Cura</b> é um projeto voluntário que já entrevistou 50 mulheres mulheres com câncer, em 9 países, nos 5 continentes,
+          e estamos nos preparando para lançarmos um documentário com todas elas! <br>
+          Entrei no projeto em março de 2019, inicialmente como desenvolvedor Web e legendário, mas hoje trabalho principalmente na área de comunicação e redes sociais.
+          Além disso, também trabalho como tradutor das entrevistas em inglês. <br> <br> <br> 
+        </p>
+      </div>
+
+      <div class="project">
+        <a href="https://www.instagram.com/redebonte" target="_blank">
+          <img src="imgs/bonte.png" alt="bontê.">
+        </a>
+        <p class="projectDescription">O <b>bontê</b> é um app sobre empatia. Nele, existe um céu estrelado, e cada estrela sugere uma boa ação que o usuário pode 
+          realizar quantas vezes quiser, tornando-a um hábito em seu dia a dia. Sempre que uma ação é feita, sua estrela acende, e o objetivo do usuário é iluminar
+          o seu céu através do exercício de boas ações.
+          Comecei o desenvolvimento da versão <b>Android</b> (nativa) em abril, utilizando a linguagem <b>Kotlin</b>. No momento, o app está em fase de testes, quase pronto para 
+          ser enviado a Google Play.
+        </p>
+      </div>
+
+      <div class="project">
+        <a href="https://www.ufpe.br/cecine">
+          <img src="imgs/cecine.png" alt="Cecine.">
+        </a>
+        <p class="projectDescription"> A <b>Coordenadoria do Ensino de Ciências do Nordeste</b> é uma unidade da Pró-Reitoria de Extensão e Cultura da UFPE.
+        Nela, atuo como bolsista de Programação, ministrando cursos de Programação Básica, que englobam conceitos iniciais e programação a objetivos, utilizando a 
+        linguagem Java. Durante este momento de pandemia, o foco está sendo a oferta de cursos para profesores sobre Tecnologias Aplicadas ao Ensino.</p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="skill">
+        <h3>Android</h3>
+        <progress max="100" value="55"></progress>
+      </div>
+
+      <div class="skill">
+        <h3>Java</h3>
+        <progress max="100" value="70"></progress>
+      </div>
+
+      <div class="skill">
+        <h3>Kotlin</h3>
+        <progress max="100" value="50"></progress>
+      </div>
+
+      <div class="skill">
+        <h3>HTML/CSS</h3>
+        <progress max="100" value="30"></progress>
+      </div>
+
+      <div class="skill">
+        <h3>React</h3>
+        <progress max="100" value="10"></progress>
+      </div>
+
+      <div class="skill">
+        <h3>Git/Github</h3>
+        <progress max="100" value="70"></progress>
+      </div>
+
+    </section>
     </div>
+    <section id="contact">
+      <div class="contact">
+        <a href="mailto:lrsv@cin.ufpe.br" target="_blank"><i class="fa fa-2x fa-envelope-o" href="www.google.com"></i></a>
+        <a href="https://www.linkedin.com/in/lucas-rodrigues-37127b180/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+        <a href="https://github.com/lucasrsv" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+      </div>
+    </section>
   </body>
 
 </html> 

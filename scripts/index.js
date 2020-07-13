@@ -25,19 +25,24 @@ function welcomeTitle() {
 }
 
 function buttonsClick() {
-    console.log("OI")
     var buttons = document.getElementsByClassName("headerLi")
     for (i in buttons) {
         if (i == 0) {
             buttons[i].onclick = function() {
-                window.location="index.html"
+                window.location="#intro"
             }
         } else if (i == 1) {
             buttons[i].onclick = function() {
-                window.location="projects.html"
+                window.location="#projects"
             }
         } else if (i == 2) {
-            
+            buttons[i].onclick = function() {
+                window.location="#skills"
+            }
+        } else if (i == 3) {
+            buttons[i].onclick = function() {
+                window.location="#contact"
+            }
         }
     }
 }
