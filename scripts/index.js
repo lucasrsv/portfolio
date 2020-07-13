@@ -1,7 +1,7 @@
 
 var typeWriterCalled = false
 var i = 0
-var txt = 'Lucas Rodrigues' /* The text */
+var txt = 'Olá, seja bem vindx!' /* The text */
 var speed = 125 /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
@@ -19,7 +19,7 @@ function typeWriter() {
 }
 
 function welcomeTitle() {
-    document.getElementById("text").innerHTML = 'Lucas Rodrigues'
+    document.getElementById("text").innerHTML = 'Olá, seja bem vindx!'
     document.getElementById("headerNavBar").style.display = "block"
     buttonsClick()
 }
@@ -41,7 +41,7 @@ function buttonsClick() {
             }
         } else if (i == 3) {
             buttons[i].onclick = function() {
-                window.location="#contact"
+                window.location="#skills"
             }
         }
     }
