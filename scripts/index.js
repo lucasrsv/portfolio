@@ -1,7 +1,7 @@
 
 var typeWriterCalled = false
 var i = 0
-var txt = 'Olá, seja bem vindx!' /* The text */
+var txt = 'Lucas Rodrigues' /* The text */
 var speed = 125 /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
