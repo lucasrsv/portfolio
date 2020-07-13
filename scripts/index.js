@@ -19,7 +19,7 @@ function typeWriter() {
 }
 
 function welcomeTitle() {
-    document.getElementById("text").innerHTML = 'Olá, seja bem vindx!'
+    document.getElementById("text").innerHTML = 'Lucas Rodrigues'
     document.getElementById("headerNavBar").style.display = "block"
     buttonsClick()
 }
