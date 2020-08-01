@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/lucasrsv/my-website#readme",
   "dependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.5"
   }
 }
