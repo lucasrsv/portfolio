@@ -132,6 +132,17 @@ header ul {
     overflow: hidden;
 }
 
+.content h1 {
+    font-family: comfortaa;
+    color: rgba(73, 85, 85, 0.692);
+    text-align: center;
+}
+
+.content .sectionTitle {
+    display: block;
+    margin-top: 5%;
+}
+
 
 /* Intro */
 .intro {
@@ -190,9 +201,10 @@ header ul {
     box-shadow: -0.5em 0.5em 0.5em #5f5e5e1f;
     border-radius: 5px;
     padding: 1%;
-    margin-top: 5%;
+    padding-top: 2%;
     display: inline-block;
     vertical-align: top;
+    margin-top: 1%;
 }
 
 .content .project img {
@@ -221,6 +233,7 @@ header ul {
 
 .project img:hover {
     cursor: pointer;
+    border: 3px solid #2c28287a;
 }
 
 
@@ -260,7 +273,6 @@ header ul {
 .content .skills {
     box-shadow: -0.5em 0.5em 0.5em #5f5e5e1f;
     border-radius: 5px;
-    margin-top: 5%;
 }
 
 .skills .skill {

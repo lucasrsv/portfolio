@@ -33,11 +33,11 @@ function buttonsClick() {
             }
         } else if (i == 1) {
             buttons[i].onclick = function() {
-                window.location="#projects"
+                window.location="#projectsSection"
             }
         } else if (i == 2) {
             buttons[i].onclick = function() {
-                window.location="#skills"
+                window.location="#skillsSection"
             }
         } else if (i == 3) {
             buttons[i].onclick = function() {
