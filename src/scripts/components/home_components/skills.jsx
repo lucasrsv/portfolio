@@ -55,7 +55,7 @@ class Skills extends Component {
 
                         <div class="skill">
                         <h3>Typescript</h3>
-                        <progress max="100" value="30"></progress>
+                        <progress max="100" value="20"></progress>
                         </div>
 
                         <div class="skill">
