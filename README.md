@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 My website is hosted at https://lucasrsv.github.io/my-website/ :).
-=======
-My website is hosted at https://lucasrsv.github.io/my-website :).
->>>>>>> e8dcc3d49a3f44dba18a34f8bb03ae9090282a47
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
