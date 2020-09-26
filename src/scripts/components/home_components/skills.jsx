@@ -40,7 +40,7 @@ class Skills extends Component {
 
                         <div class="skill">
                         <h3>Java</h3>
-                        <progress max="100" value="70"></progress>
+                        <progress max="100" value="60"></progress>
                         </div>
 
                         <div class="skill">
@@ -49,14 +49,15 @@ class Skills extends Component {
                         </div>
 
                         <div class="skill">
-                        <h3>Javascript</h3>
-                        <progress max="100" value="40"></progress>
+                        <h3>Firebase</h3>
+                        <progress max="100" value="45"></progress>
                         </div>
 
                         <div class="skill">
-                        <h3>Typescript</h3>
-                        <progress max="100" value="20"></progress>
+                        <h3>Javascript</h3>
+                        <progress max="100" value="45"></progress>
                         </div>
+
 
                         <div class="skill">
                         <h3>HTML/CSS</h3>
@@ -66,18 +67,13 @@ class Skills extends Component {
 
                     <div id="page2">
                         <div class="skill">
-                        <h3>Firebase</h3>
-                        <progress max="100" value="45"></progress>
-                        </div>
-
-                        <div class="skill">
                         <h3>React</h3>
                         <progress max="100" value="50"></progress>
                         </div>
 
                         <div class="skill">
                         <h3>Node</h3>
-                        <progress max="100" value="40"></progress>
+                        <progress max="100" value="45"></progress>
                         </div>
 
                         <div class="skill">
@@ -87,7 +83,7 @@ class Skills extends Component {
 
                         <div class="skill">
                         <h3>SQL</h3>
-                        <progress max="100" value="20"></progress>
+                        <progress max="100" value="25"></progress>
                         </div>
 
                         <div class="skill">

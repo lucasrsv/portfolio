@@ -3,6 +3,8 @@ import Inglês from '../../../imgs/uptime.jpg'
 import Angular from '../../../imgs/coursera_angular.jpg'
 import Web from '../../../imgs/coursera_web.jpg'
 import Nti from '../../../imgs/nti.jpg'
+import ReactCourse from '../../../imgs/coursera_react.jpg'
+import Sql from '../../../imgs/coursera_sql.jpg'
 import Bootstrap from '../../../imgs/coursera_bootstrap4.jpg'
 
 class Certificates extends Component {
@@ -20,6 +22,8 @@ class Certificates extends Component {
         document.getElementById("certificate3").style.display = "none"
         document.getElementById("certificate4").style.display = "none"
         document.getElementById("certificate5").style.display = "none"
+        document.getElementById("certificate6").style.display = "none"
+        document.getElementById("certificate7").style.display = "none"
         document.getElementById("dot" + this.state.page[4]).style.backgroundColor = ""
 
     }
@@ -47,13 +51,19 @@ class Certificates extends Component {
                     <a href="https://www.coursera.org/account/accomplishments/certificate/J4Y7K7LSAAWH" target="_blank" rel="noopener noreferrer" id="certificate2">
                         <img src={Angular} alt="Certificado de Angular pelo Coursera"/>
                     </a>
-                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NCTPEEUATNDG" target="_blank" rel="noopener noreferrer" id="certificate3">
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/ZCBAS92S9XJP" target="_blank" rel="noopener noreferrer" id="certificate3">
+                        <img src={ReactCourse} alt="Certificado de Angular pelo Coursera"/>
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/4NGCTYZSGE2R" target="_blank" rel="noopener noreferrer" id="certificate4">
+                        <img src={Sql} alt="Certificado de Angular pelo Coursera"/>
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NCTPEEUATNDG" target="_blank" rel="noopener noreferrer" id="certificate5">
                         <img src={Web} alt="Certificado de Web Development pelo Coursera"/>
                     </a>
-                    <a href="https://drive.google.com/file/d/1vmFUAtaUcPHgrHuJcOA8SpBySRiqKh6u/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="certificate4">
+                    <a href="https://drive.google.com/file/d/1vmFUAtaUcPHgrHuJcOA8SpBySRiqKh6u/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="certificate6">
                         <img src={Nti} alt="Certificado do Projeto Mover pelo NTI"/>
                     </a>
-                    <a href="https://www.coursera.org/account/accomplishments/certificate/QDJDC79CKTAX" target="_blank" rel="noopener noreferrer" id="certificate5">
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/QDJDC79CKTAX" target="_blank" rel="noopener noreferrer" id="certificate7">
                         <img src={Bootstrap} alt="Certificado de inglês pela UPTIME"/>
                     </a>
                     <div className="dots">
@@ -62,6 +72,8 @@ class Certificates extends Component {
                         <span onClick={() => this.handleClick("certificate3")} class="dot" id="dot3"></span>
                         <span onClick={() => this.handleClick("certificate4")} class="dot" id="dot4"></span>
                         <span onClick={() => this.handleClick("certificate5")} class="dot" id="dot5"></span>
+                        <span onClick={() => this.handleClick("certificate6")} class="dot" id="dot6"></span>
+                        <span onClick={() => this.handleClick("certificate7")} class="dot" id="dot7"></span>
                     </div>
                 </div>
             </section>
