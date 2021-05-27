@@ -1,6 +1,6 @@
 {
-  "homepage": "https://lucasrsv.github.io/my-website/",
-  "name": "my-website",
+  "homepage": "https://lucasrsv.github.io/portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
