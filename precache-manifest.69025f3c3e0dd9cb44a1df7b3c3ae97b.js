@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c920200975b16e460099200cbc18c3f2",
+    "revision": "3afa3fec9f3e176c6149d532fe5e6b00",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c4f3495e88338090e812",
+    "revision": "9f6361d6c26896369f25",
     "url": "/portfolio/static/css/main.00454e08.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.1c120684.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4f3495e88338090e812",
-    "url": "/portfolio/static/js/main.591cbe3d.chunk.js"
+    "revision": "9f6361d6c26896369f25",
+    "url": "/portfolio/static/js/main.7a5af9f4.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/bonte.f084aa65.png"
   },
   {
+    "revision": "1450aa8e7da68a91dededf5d24f232de",
+    "url": "/portfolio/static/media/codeanywhere.1450aa8e.png"
+  },
+  {
     "revision": "8504a8e9636594872be2b7e4ddc9676a",
     "url": "/portfolio/static/media/comfortaa_bold.8504a8e9.ttf"
   },
   {
     "revision": "37830005fa2aade9bccc8e66e9a440a4",
     "url": "/portfolio/static/media/coursera_angular.37830005.jpg"
-  },
-  {
-    "revision": "738b65d11aa3add64d00008b8a9f037a",
-    "url": "/portfolio/static/media/coursera_bootstrap4.738b65d1.jpg"
   },
   {
     "revision": "291483cb7b4c857498fe41d1f249c736",

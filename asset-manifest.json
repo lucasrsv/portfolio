@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.00454e08.chunk.css",
-    "main.js": "/portfolio/static/js/main.591cbe3d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.591cbe3d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7a5af9f4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7a5af9f4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.1c120684.chunk.js": "/portfolio/static/js/2.1c120684.chunk.js",
     "static/js/2.1c120684.chunk.js.map": "/portfolio/static/js/2.1c120684.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8f06b33d3726eccbb792ffe005213e28.js": "/portfolio/precache-manifest.8f06b33d3726eccbb792ffe005213e28.js",
+    "precache-manifest.69025f3c3e0dd9cb44a1df7b3c3ae97b.js": "/portfolio/precache-manifest.69025f3c3e0dd9cb44a1df7b3c3ae97b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.00454e08.chunk.css.map": "/portfolio/static/css/main.00454e08.chunk.css.map",
     "static/js/2.1c120684.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1c120684.chunk.js.LICENSE.txt",
     "static/media/alemdacura.png": "/portfolio/static/media/alemdacura.c5a49c02.png",
     "static/media/bonte.png": "/portfolio/static/media/bonte.f084aa65.png",
+    "static/media/codeanywhere.png": "/portfolio/static/media/codeanywhere.1450aa8e.png",
     "static/media/App.scss": "/portfolio/static/media/comfortaa_bold.8504a8e9.ttf",
     "static/media/coursera_angular.jpg": "/portfolio/static/media/coursera_angular.37830005.jpg",
-    "static/media/coursera_bootstrap4.jpg": "/portfolio/static/media/coursera_bootstrap4.738b65d1.jpg",
     "static/media/coursera_react.jpg": "/portfolio/static/media/coursera_react.291483cb.jpg",
     "static/media/coursera_sql.jpg": "/portfolio/static/media/coursera_sql.5615eb88.jpg",
     "static/media/coursera_web.jpg": "/portfolio/static/media/coursera_web.cc1f7680.jpg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.1c120684.chunk.js",
     "static/css/main.00454e08.chunk.css",
-    "static/js/main.591cbe3d.chunk.js"
+    "static/js/main.7a5af9f4.chunk.js"
   ]
 }
